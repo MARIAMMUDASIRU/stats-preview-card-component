@@ -5,6 +5,7 @@
   --Dark-Grayish: #05355a;
   --Light: #05668a;
   --White: #ffffff;
+  --color-grayish: #6c6b71;
   --color-dark: var(--Very-Dark);
   --color-primary: var(--Dark-Grayish);
   --color-light: var(--Light);
@@ -37,6 +38,7 @@ h2 {
 }
 p {
   margin-bottom: 60px;
+  color: var(--color-grayish);
 }
 .highlight {
   color: var(--color-light);
@@ -73,4 +75,14 @@ p {
 .stat-number,
 .stat-label {
   font-family: "Lexend Deca", sans-serif;
+}
+.stat-number {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.stat-label {
+  font-size: 18px;
+  color: var(--color-grayish);
+  letter-spacing: 2px;
 }
