@@ -5,12 +5,12 @@
   --Dark-Grayish: #05355a;
   --Light: #05668a;
   --White: #ffffff;
-  --color-grayish: #6c6b71;
+  --color-grayish: #bfc0bb;
   --color-dark: var(--Very-Dark);
   --color-primary: var(--Dark-Grayish);
   --color-light: var(--Light);
   --color-white: var(--White);
-  --font-family: cursive;
+  --font-family: "Lexend Deca", sans-serif;
 }
 
 /* Global Styles 
@@ -77,7 +77,7 @@ p {
   font-family: "Lexend Deca", sans-serif;
 }
 .stat-number {
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 700;
   margin-bottom: 10px;
 }
@@ -85,4 +85,5 @@ p {
   font-size: 18px;
   color: var(--color-grayish);
   letter-spacing: 2px;
+  white-space: nowrap;
 }
